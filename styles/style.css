@@ -1,0 +1,245 @@
+body {
+  /* background-color: #b6cff5; */
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+}
+
+label {
+  display: inline-block;
+}
+
+
+.addPaddingTop{
+  padding-top: 20px;
+}
+
+.arrow_background{
+  background: hsla(100, 100%, 59%, .85);
+  box-shadow: inset 2px -2px 10px black;
+  padding-top: 20px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius:20px;
+}
+
+.arrow_box_small {
+	position: relative;
+	background: hsla(100, 100%, 59%, .85);
+  width: 85%;
+  border-radius:20px;
+  box-shadow: inset 2px -2px 10px black;
+  margin: auto;
+}
+.arrow_box_small:after, .arrow_box_small:before {
+  top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box_small:after {
+	border-color: rgba(113, 213, 213, 0);
+	border-top-color: hsla(100, 100%, 59%, 0.85);
+  border-width: 10px;
+	margin-left: -10px;
+}
+
+.arrow_box_small:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #1a69159e;
+	border-width: 16px;
+	margin-left: -16px;
+}
+
+
+.arrow_box_large {
+	position: relative;
+	background: hsla(100, 100%, 59%, .85);
+	border-right: 0px solid hsla(100, 100%, 59%, 0.85);
+  box-shadow: inset 2px -2px 10px black;
+  border-radius:20px;
+}
+.arrow_box_large:after, .arrow_box_large:before {
+  left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box_large:after {
+	border-color: rgba(113, 213, 213, 0);
+	border-left-color: hsla(100, 100%, 59%, 0.85);
+	border-width: 11px;
+	margin-top: -11px;
+}
+.arrow_box_large:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #1a69159e;
+	border-width: 13px;
+	margin-top: -15px;
+}
+
+.autoMargins{
+  margin: auto;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.container{
+  flex:1;
+  padding-left: 0px;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 20px 20px 10px grey;
+  margin-left: 0px;
+}
+
+.customAlignRight{
+  float: right;
+}
+
+.custom-file-label{
+  overflow:hidden;
+}
+
+.custom-file-label::after{
+  height: auto;
+}
+
+.custom-file-input{
+  cursor: pointer;
+}
+
+.datepicker{
+  width: auto;
+  margin: auto;
+}
+
+.dropdownOptions_small{
+  padding-top: 20px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0px!important;
+}
+
+.dropdownOptions_large{
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.fontAlignCenter{
+  text-align: center;
+  margin-left: 0px;
+  font-weight: normal;
+}
+
+.gj-picker-bootstrap{
+  border-radius: 20px;
+}
+
+.ieDateStyleFix{
+  margin-right: 30px;
+}
+
+.ieNoRightMargin{
+  margin-right: 0px;
+}
+
+.ieNoSpaceLeft{
+  left:0px;
+}
+
+.increaseDateFont{
+  font-size: 23px;
+}
+
+.increaseHeight{
+  height:auto!important;
+}
+
+.increaseFont{
+  font-size: 25px;
+}
+
+.italicize{
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.nav-item{
+   text-align: right;
+}
+
+.navbar{
+  border-radius: 8px;
+}
+
+.pictureBack{
+  background-image: url("../images/SyscoProduce2.jpg");
+  border-radius: 10px;
+}
+
+.redText{
+  color: red;
+  font-weight:lighter;
+}
+
+.row {
+  display: flex;
+}
+
+.takeMargins{
+  margin: 0px;
+}
+
+.takePadding{
+  padding: 0px;
+}
+
+.tooltip-inner{
+    max-width: 90%;
+    padding:2px 7px;
+    color: #000000;
+    text-align:center;
+    font-weight:800;
+    background: white;
+    background: -webkit-gradient(linear, left top, left 25, from(#F4F4F4), color-stop(4%, #B4C8D6), to(#F4F4F4));
+    background: -moz-linear-gradient(top, #F4F4F4, #B4C8D6 1px, #F4F4F4 25px);
+    border: 1px solid #55AAAA;
+    -webkit-border-radius:9px;
+    -moz-border-radius:9px;
+    border-radius:9px;
+}
+
+
+#invDates{
+  display:none;
+  max-width: 100%;
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+#fieldMissing{
+  display:none;
+  max-width: 100%;
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
